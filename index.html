@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="contain">
+            <input class="time" id="hour" value="0" type="number" min="0" max="24">
+            <input class="time" id="min" value="0" type="number" min="0" max="59">
+            <input class="time" id="sec" value="0" type="number" min="0" max="59">
+            <div class="control">
+                <button id="start">start</button>
+                <button id="stop">Stop</button>
+                <button id="reset">Reset</button>
+            </div>
+        </div>
+    </div>
+    <audio src="back.mp3" id="timeraudio"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
